@@ -1,0 +1,19 @@
+body{
+    background-color: gray;
+}
+.page{
+    width: 100%;
+}
+.firstSection{
+    width: 15%;
+}
+.secondSection{
+    width: 20%;
+}
+.navBar{
+    display: inline-block;
+    
+}
+.navBar img{
+        background-color: white;
+}
