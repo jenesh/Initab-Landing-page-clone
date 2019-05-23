@@ -1,19 +1,39 @@
-body{
-    background-color: gray;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.page{
-    width: 100%;
-}
-.firstSection{
-    width: 15%;
+.firstSection {
+    grid-area: first;
 }
 .secondSection{
-    width: 20%;
+    grid-area: second;
 }
-.navBar{
-    display: inline-block;
-    
+.thirdSection{
+    grid-area: third;
 }
-.navBar img{
-        background-color: white;
+.fourthSection{
+    grid-area: fourth;
+}
+.page{
+    display: grid;
+    grid-template-areas: 'first second second third third third third fourth fourth';
+    /* background-color: #272936; */
+}
+.nav {
+    text-transform: uppercase;
+}
+.nav i{
+    color: black;
+    width: 25px;
+    height: 25px;
+    padding: 2px;
+}
+.title{
+    /* color: #76BED2; */
+    text-align: center;
+    text-transform: uppercase;
+}
+.subTitle{
+    text-transform: none;
 }
