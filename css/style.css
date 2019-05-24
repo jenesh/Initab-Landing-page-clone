@@ -3,6 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+}
+body{
+    background: #272936;
+    font-family: Verdana;
+    font-weight: 100;
+    font-size: 14px;
+
+}
 .firstSection {
     grid-area: first;
 }
@@ -18,22 +28,119 @@
 .page{
     display: grid;
     grid-template-areas: 'first second second third third third third fourth fourth';
-    /* background-color: #272936; */
+    min-height:100vh;
+}
+.firstSection{
+    background: #44475A;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .nav {
     text-transform: uppercase;
+    /* padding: 10px; */
 }
-.nav i{
-    color: black;
+.social{
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-evenly;
+    margin: 15px 5px;
+}
+.social i{
     width: 25px;
     height: 25px;
     padding: 2px;
 }
+li:nth-child(1), .fa-wrench{
+    color: #8BE9FC;
+}
+li:nth-child(2){
+    color: #74F27C;
+}
+li:nth-child(3){
+    color: #F7B76B;
+}
+li:nth-child(4){
+    color: #ED76C5;
+}
+li:nth-child(5){
+    color: #BD93F9;
+}
+li:nth-child(6){
+    color: #F8F8F2;
+}
+li:nth-child(7){
+    color: #E6DB74;
+}
+.nav ul li{
+    padding: 15px;
+}
+.nav ul li i{
+    border-radius: 4px;
+    color: black;
+    text-align: center;
+    padding: 6px;
+    width: 28px;
+    vertical-align: middle;
+    font-size: 16px;
+}
+.fa-wrench{
+    background: #8BE9FC;
+}
+.fa-code{
+    background: #74F27C;
+}
+.fa-stack-overflow{
+    background: #F7B76B;
+}
+.fa-chart-line{
+    background: #ED76C5;
+}
+.fa-pencil-alt{
+    background: #BD93F9;
+}
+.fa-lightbulb{
+    background: #F8F8F2;
+}
+.fa-lock{
+    color: #ffffff;
+}
+.fa-question{
+    background: #e6db74;
+}
 .title{
-    /* color: #76BED2; */
+    color: #8BE9FC;
     text-align: center;
     text-transform: uppercase;
 }
 .subTitle{
     text-transform: none;
+}
+.social i{
+    border-radius: 50%;
+    color: white;
+    width: 30px;
+    padding: 7px;
+    text-align: center;
+    displaY: table-cell;
+    vertical-align: middle;
+}
+.fa-facebook-f{
+    background: #3B5997;    
+}
+.fa-linkedin-in{
+    background: #2B7FB0;
+}
+.fa-twitter{
+    background: #3EACEB;
+}
+.fa-reddit-alien{
+    background: #5F99CE;
+    
+}
+.initab-logo{
+    color: #6272A4;
+}
+.fa-reddit-two{
+    background: none;
 }
