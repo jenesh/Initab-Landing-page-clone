@@ -8,9 +8,12 @@ a{
 }
 body{
     background: #272936;
-    font-family: Verdana;
+    /* font-family: Verdana; */
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     font-weight: 100;
     font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 24px;
 
 }
 .firstSection {
@@ -27,7 +30,7 @@ body{
 }
 .page{
     display: grid;
-    grid-template-areas: 'first second second third third third third fourth fourth';
+    grid-template-areas: 'first second second third third third third third third fourth fourth';
     min-height:100vh;
 }
 .firstSection{
@@ -119,8 +122,8 @@ li:nth-child(7){
 .social i{
     border-radius: 50%;
     color: white;
-    width: 30px;
-    padding: 7px;
+    width: 32px;
+    padding: 8px;
     text-align: center;
     displaY: table-cell;
     vertical-align: middle;
@@ -143,4 +146,138 @@ li:nth-child(7){
 }
 .fa-reddit-two{
     background: none;
+}
+.redditText{
+    color: white;
+}
+.redditTrial{
+    color: yellow;
+}
+
+.redditAuthor{
+    color: #8BE9FC;
+}
+.redditUser{
+    color: yellow;
+}
+.redditScore{
+    color: #6272A4;
+}
+.redditSponsor{
+    color: #ED76C5;
+}
+.redditComment a{
+    color: #ED76C5;
+    text-decoration: underline;
+}
+.title{
+    height: 120px;
+    position: relative;
+    top: 5%;
+    font-size: 18px;
+}
+.redditPosts{
+    border-left: 3px solid gray; 
+    margin: 0 40px 60px 30px;
+    padding: 0 0 0 15px;
+    line-height: 1.8em;
+    letter-spacing: 2px;
+}
+.javaScriptHistory{
+    border-bottom: 1px solid gray;
+}
+.javaScriptHistory, .currentTime, .currentDate, .msgDelete{
+    color: #6272A4;
+    letter-spacing: 2px;
+}
+.deleteMe, .fa-question-circle{
+    color: orange;
+}
+.javaScriptHistoryItems{
+    margin: 5px;
+}
+.fa-artstation{
+    color: black;
+    background-color: white;
+    padding: 2px;
+    border: 2px solid greenyellow;
+}
+.fa-bug{
+    color: red;
+    background: white;
+    padding: 2px;
+    border: 2px solid greenyellow;
+}
+.newsItems{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 700px;
+    display: block;
+    overflow: hidden;
+    padding: 10px;
+}
+.currentTime{
+    font-size: 100px;
+    text-align: center;
+    margin: 150px 0 0 0;
+    font-weight: 1000;
+}
+.currentDate{
+    text-align: center;
+    font-size: 20px;
+    margin-top: -60px;
+}
+.msgDelete{
+    position: absolute;
+    text-align: center;
+    margin-top: 20px;
+    width: 600px;
+    left: 38%;
+}
+.githubFeed{
+    margin: 40px;
+
+}
+.feedItems{
+    border-left: 3px solid gray;
+    margin: 0 40px 60px 30px;
+    padding: 0 0 0 15px;
+    line-height: 1.8em;
+    letter-spacing: 2px;
+}
+.repo{
+    color: #6272A4;
+}
+.issue{
+    color: yellow;
+}
+.message{
+    color: white;
+}
+.navIssue{
+    color: yellow;
+    display: inline-block;
+    position: relative;
+    left: 25%;
+}
+.navPull{
+    color: #ED76C5;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    left: 25%;
+}
+.subTitle{
+    color: #6272A4;
+    font-size: 14px;
+}
+.triangle{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 7px 7px 7px;
+    border-color: transparent transparent #ffffff transparent;
+    position: relative;
+    left: 17%;
+    top: 4px;
 }

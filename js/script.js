@@ -9,9 +9,9 @@ function currentTime(){
     if(hour >= 12){
         amPm = 'PM';
     }
-    if(hour < 10){
-        hour = '0' + hour;
-    }
+    // if(hour < 10){
+    //     hour = '0' + hour;
+    // }
     if(hour > 12){
         hour = hour - 12;
     }
@@ -24,7 +24,6 @@ function currentTime(){
         sec = '0' + sec;
     }
     let month = date.getMonth();
-
     document.querySelector('.currentTime').innerHTML = hour + ":" + min + amPm;
 }
 // Defining the date function which displays it in the format of Month, Date , Year
